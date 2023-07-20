@@ -14,6 +14,7 @@ const dashboard = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const session = useSession()
   console.log(session)
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const router = useRouter()
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
